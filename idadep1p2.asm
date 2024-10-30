@@ -30,7 +30,6 @@ li $v0,4
 la $a0,outputIgual
 syscall
 j fim
-
 p1Maior:
 li $v0,4
 la $a0,outputP1P2
@@ -40,9 +39,9 @@ p2Maior:
 li $v0,4
 la $a0,outputP2P1
 syscall
-
+j fim
 fim:
-li $v0,0
+li $v0,10
 syscall
 
 
